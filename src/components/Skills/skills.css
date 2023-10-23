@@ -13,33 +13,109 @@
 .skillTitle {
     font-size: 3rem;
     font-weight: 600;
-    padding-top: 3rem;
+    /* padding-top: 3rem; */
     padding-bottom: 1.5rem;
+    /* text-align: center; */
 }
 
 .skillDesc {
-    font-weight: 200;
-    font-size: 1rem;
+    font-weight: 300;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
-.skillSets {
-    display: inline-block;
-    position: relative;
+.skill_upper_part{
+    display: flex;
+    margin-bottom: 3rem;
 }
 
 .htmlImg {
-    padding-right: 4rem;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
-    transition: box-shadow 0.3s ease;
+    margin-right: 2rem;
+    border-radius: 1rem;
 }
 
-.htmlImg:hover {
-    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4);
-} 
+.javascriptImg {
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
 
+.gitImg {
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
 
+.dockerImg {
+    /* margin-right: 2rem; */
+    border-radius: 1rem;
+}
+
+.skill_lower_part{
+    display: flex;
+}
+
+.mongodbImg{
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.styleImg {
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.reactImg {
+    border-radius: 1rem;
+}
+
+@media screen and (max-width:420px){
+    .skillDesc {
+        font-size: 1rem;
+    }
+    .skillTitle {
+        font-size: 2.5rem;
+    }
+    .skill_upper_part {
+        height: 5rem;
+        width: 20rem;
+    }
+    .htmlImg {
+        margin-right: 0.1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .javascriptImg {
+        margin-right: 0.1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .gitImg {
+        margin-right: 0.1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .dockerImg {
+        border-radius: 0.5rem;
+    }
+
+    .skill_lower_part{
+        height: 5rem;
+        width: 15rem;
+    }
+
+    .mongodbImg{
+        margin-right: 0.1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .styleImg {
+        margin-right: 0.1rem;
+        border-radius: 0.5rem;
+    }
+    
+    .reactImg {
+        border-radius: 0.5rem;
+    }
+}
   
